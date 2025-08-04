@@ -54,6 +54,7 @@ public class StackArrayList {
         s.push(40);
 
         System.out.println(s.isEmpty());
+        System.out.println(s.size());
 
         while (!s.isEmpty()) {
             System.out.println(s.peek());
