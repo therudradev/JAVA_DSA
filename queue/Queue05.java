@@ -7,8 +7,8 @@ import java.util.Stack;
 // this is 1. push O(n) method.
 public class Queue05 {
     static class QueueUsing2Stack {
-        static Stack<Integer> s1 = new Stack<>();
-        static Stack<Integer> s2 = new Stack<>();
+        static Stack<Integer> s1 = new Stack<>(); // main stack
+        static Stack<Integer> s2 = new Stack<>();   // temp stack
 
         public static boolean isEmpty() {
             return s1.isEmpty();
