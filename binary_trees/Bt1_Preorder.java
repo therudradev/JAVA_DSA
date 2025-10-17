@@ -21,8 +21,8 @@ public class Bt1_Preoder {
             }
 
             Node newNode = new Node(nodes[idx]);
-            newNode.right = buildTree(nodes);
             newNode.left = buildTree(nodes);
+            newNode.right = buildTree(nodes);
             return newNode;
         }
     }
@@ -31,6 +31,6 @@ public class Bt1_Preoder {
         int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
-        System.out.println(root.left.data);
+        System.out.println(root.data);
     }
 }
