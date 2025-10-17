@@ -44,3 +44,7 @@ public class Bt2_Preorder_Traversal {
         tree.preorder(root);
     }
 }
+
+
+// output:
+// 1  2  4  5  3  6
